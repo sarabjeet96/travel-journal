@@ -1,0 +1,19 @@
+.nav {
+    color: #F5F7FB;
+    background-color: #F55A5A;
+}
+ul {
+    display: flex;
+    list-style: none;
+    margin-top: 0px;   
+    padding: 8px;
+    gap: 5px;
+    width: 100%;
+    margin-left: 40%;
+}
+
+@media only screen and (max-width: 600px){
+    ul{
+        margin-left: 30%;
+    }
+}
