@@ -5,7 +5,7 @@ import {GrLocation} from "react-icons/gr";
 function Card(props){
     return(
         <div className={classes.card}>
-            <img src={process.env.PUBLIC_URL + 'props.imgUrl'}/>
+            <img src={props.imgUrl} alt=""/>
             <div className={classes.info}>
                 <small> <GrLocation /> {props.location}</small>
                 <h3><strong>{props.title}</strong></h3>

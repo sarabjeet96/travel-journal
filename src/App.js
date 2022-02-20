@@ -6,7 +6,8 @@ import Separate from './separate';
 function App() {
 const card = Separate.map(item => {
   return (
-      <Card 
+      <Card
+        key={item.id} 
         title={item.title}
         location={item.location}
         startDate={item.startDate}
