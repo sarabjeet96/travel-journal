@@ -1,10 +1,10 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import Card from './components/Card';
-import data from './separate';
+import Separate from './separate';
 
 function App() {
-const card = data.map(item => {
+const card = Separate.map(item => {
   return (
       <Card 
         title={item.title}

@@ -8,7 +8,7 @@ function Navbar(){
         <div className={classes.nav}>   
             <ul>
                 <li>
-                    <GiEarthAmerica size={20}/>
+                    <GiEarthAmerica size={22}/>
                 </li>
                 <li>my travel journal.</li>
             </ul>
